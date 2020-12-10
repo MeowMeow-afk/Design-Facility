@@ -13,12 +13,7 @@ function App() {
           "http://5.181.217.46/DesignFacility/useGETMethodForTheResponse/yashchauhan"
         )
         .then((response) => {
-          // console.log(
-          //   response?.data?.exam?.sections[0].Section1[0],
-          //   typeof response?.data?.exam?.sections[0]
-          // );
           let x = response?.data?.exam?.sections;
-          // console.log(x);
           setData(x);
         })
         .catch((err) => {
@@ -27,7 +22,7 @@ function App() {
     }
     fetchdata();
   }, []);
-  // console.log(data);
+
   return (
     <div className="App">
       <div className="container__1">
