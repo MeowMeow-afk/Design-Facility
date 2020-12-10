@@ -1,0 +1,20 @@
+.thanks {
+  color: #2f6690;
+  height: 44rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thanks > div {
+  text-align: center;
+}
+.thanks h1 {
+  font-size: 9rem;
+  letter-spacing: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+.thanks p {
+  font-size: 2rem;
+  text-transform: capitalize;
+}

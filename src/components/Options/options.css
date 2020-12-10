@@ -1,0 +1,38 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+.option__section {
+  display: flex;
+  gap: 1rem;
+  padding-left: 0.7rem;
+  align-items: center;
+}
+.option__dot {
+  background-color: #2f6690;
+  color: white;
+  width: 3.4rem;
+  height: 3.4rem;
+  text-align: center;
+  border-radius: 50%;
+}
+.option__dot > h1 {
+  padding-top: 0.2rem;
+}
+.option__name {
+  background-color: white;
+  outline: 0.2rem solid #66b8cc;
+  width: 91%;
+  padding: 0.5rem;
+}
+.option__name:hover {
+  background-color: #cfebff;
+  cursor: pointer;
+}
+.option__name > h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 0.3rem 1rem;
+}
